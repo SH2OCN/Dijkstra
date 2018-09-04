@@ -57,28 +57,27 @@ def dijkstra(n,k,e):
     print('\nThe distances are:',dis)  
     return ans   
             
-
-n = 6 #number of points
-k = 0 #source point
-z = 1e5 # infinity
-e = [[0,1,12,z,z,z], #test case 1
-     [z,0,9,3,z,z],
-     [z,z,0,z,5,z],
-     [z,z,4,0,13,15],
-     [z,z,z,z,0,4],
-     [z,z,z,z,z,0]
-    ]
-'''
-e = [[0,6,3,z,z,z], #test case 2
-     [6,0,2,5,z,z],
-     [3,2,0,3,4,z],
-     [z,5,3,0,2,3],
-     [z,z,4,2,0,5],
-     [z,z,z,3,5,0]
-    ]
-'''
            
 if __name__ == '__main__':
+    n = 6   #number of points
+    k = 0   #source point
+    z = 1e5 # infinity
+    e = [[0,1,12,z,z,z], #test case 1
+         [z,0,9,3,z,z],
+         [z,z,0,z,5,z],
+         [z,z,4,0,13,15],
+         [z,z,z,z,0,4],
+         [z,z,z,z,z,0]
+        ]
+    '''
+    e = [[0,6,3,z,z,z], #test case 2
+         [6,0,2,5,z,z],
+         [3,2,0,3,4,z],
+         [z,5,3,0,2,3],
+         [z,z,4,2,0,5],
+         [z,z,z,3,5,0]
+        ]
+    '''
     ans = dijkstra(n,k,e)
             
 '''
