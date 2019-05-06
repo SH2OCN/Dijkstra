@@ -1,2 +1,3 @@
 # Dijkstra
-Dijkstra by Python3.6
+Dijkstra by Java & Python
+The Java program is for adjacency matrix representation of the graph.
